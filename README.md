@@ -11,6 +11,7 @@ This is a template project using Electron, React, and Parcel.
 ### Installation
 
 1. Clone the repository:
+
     ```sh
     git clone https://github.com/Levitifox/template
     cd template/
@@ -28,6 +29,7 @@ To start the development server with hot reloading:
 ```sh
 npm run watch
 ```
+
 To start the Electron application:
 
 ```sh

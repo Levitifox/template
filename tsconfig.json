@@ -9,6 +9,6 @@
         "exactOptionalPropertyTypes": true,
         "noImplicitOverride": true,
         "noImplicitReturns": true,
-        "esModuleInterop": true,
+        "esModuleInterop": true
     }
 }

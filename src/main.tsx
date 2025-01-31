@@ -8,6 +8,7 @@ function App() {
     );
 }
 
-const rootElement = document.getElementById("root");
-const root = createRoot(rootElement!);
-root.render(<App />);
+document.addEventListener("DOMContentLoaded", () => {
+    const root = createRoot(document.getElementById("app")!);
+    root.render(<App />);
+});

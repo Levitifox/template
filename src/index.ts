@@ -8,8 +8,8 @@ ipcMain.handle("dialog:showOpenDialog", async (_event, options) => {
 
 app.whenReady().then(() => {
     const mainWindow = new BrowserWindow({
-        width: 1100,
-        height: 700,
+        width: 1200,
+        height: 800,
         webPreferences: {
             nodeIntegration: true,
             contextIsolation: false,
