@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --background-color: #2d2d2d;
+    --secondary-bg-color: #202020;
+    --foreground-color: #eeeeee;
+    --accent-color: #a9d1ff;
+    --border-color: #444;
+    --hover-color: #666;
+    --highlight-color: #ffcc99;
+
+    --font-family: "Nunito Sans", serif;
+    --font-size-base: 14px;
+    --padding: 6px;
+    --border-radius: 6px;
+
+    --scrollbar-width: 6px;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--foreground-color);
+    font-family: var(--font-family);
+}
+
+html,
+body,
+#root {
+    height: 100%;
+}
